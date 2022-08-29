@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {boolean}
  */
-var isValid = function(s) {
+const isValid = (s) => {
     // first we need to create an object to reference the brackets
     let bracket = {
         '(':')',
